@@ -1,0 +1,8 @@
+*.json
+*.class
+/bin/*
+/out/*
+*.
+*.png
+*.jpg
+/lib/*
