@@ -11,10 +11,16 @@ package main.patterns.creationalpatterns.abstractfactory;
  * @see OldTable
  * 
  * @author                              o.le
- * @version                             1.0.1
+ * @version                             1.1.1
  * @since                               0.3.5
  */
 interface Table {
 
-    void lay();
+    /**
+     * Lay something on the table.
+     * 
+     * @param something                 The object that is laying down
+     *                                  on the table.
+     */
+    void lay(Object something);
 }

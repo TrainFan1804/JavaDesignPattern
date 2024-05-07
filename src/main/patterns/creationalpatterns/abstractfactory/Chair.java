@@ -11,10 +11,13 @@ package main.patterns.creationalpatterns.abstractfactory;
  * @see OldChair
  * 
  * @author                              o.le
- * @version                             1.0.1
+ * @version                             1.0.2
  * @since                               0.3.5
  */
 interface Chair {
 
+    /**
+     * Sit down.
+     */
     void sit();
 }
