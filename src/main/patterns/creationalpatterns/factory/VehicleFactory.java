@@ -8,7 +8,7 @@ package main.patterns.creationalpatterns.factory;
  * @see CarFactory
  *  
  * @author                              o.le
- * @version                             1.0.1
+ * @version                             1.0.2
  * @since                               0.1.1
  */
 interface VehicleFactory extends Factory {
