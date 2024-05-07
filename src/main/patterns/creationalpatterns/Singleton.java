@@ -17,7 +17,7 @@ public class Singleton {
     private Singleton() {}
 
     /**
-     * Return the instance of the Singleton. When this type has no 
+     * Return the instance of the singleton. When this type has no 
      * instance there will be created one instance of the singleton.
      * 
      * @return                          The instance of the singleton.
