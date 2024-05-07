@@ -10,8 +10,11 @@ package main.patterns.creationalpatterns.abstractfactory;
  * by all types that should create an object that implements the 
  * {@link Chair} or {@link Table} type.
  * 
+ * @see ModernFurnitureFactory
+ * @see OldFurnitureFactory
+ * 
  * @author                              o.le
- * @version                             1.1.0
+ * @version                             1.1.2
  * @since                               0.3.5
  */
 public interface AbstractFactory {
