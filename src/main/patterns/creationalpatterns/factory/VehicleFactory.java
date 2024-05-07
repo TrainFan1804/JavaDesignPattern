@@ -4,6 +4,8 @@ package main.patterns.creationalpatterns.factory;
 import main.patterns.creationalpatterns.Singleton;
 
 /**
+ * A type that can create other object are called <b>factory</b>.
+ * <p>
  * This is an factory interface that is implemented by all types that
  * should create an object that implements the {@link Vehicle}
  * type.
@@ -13,7 +15,7 @@ import main.patterns.creationalpatterns.Singleton;
  * @see CarFactory
  *  
  * @author                              o.le
- * @version                             1.0.0
+ * @version                             1.0.1
  * @since                               0.1.1
  */
 interface VehicleFactory {

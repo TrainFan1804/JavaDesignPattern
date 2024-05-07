@@ -5,7 +5,7 @@ package main.patterns.creationalpatterns.factory;
  * {@link Vehicle} from the {@link Car} type.
  * 
  * @author                              o.le
- * @version                             1.0.01
+ * @version                             1.0.1
  * @since                               0.1.0
  */
 class CarFactory implements VehicleFactory {
