@@ -5,7 +5,7 @@ package main.patterns.creationalpatterns.factory;
  * {@link Vehicle} from the {@link Car} type.
  * 
  * @author                              o.le
- * @version                             0.1.22
+ * @version                             1.0.0
  * @since                               0.1.0
  */
 class CarFactory implements VehicleFactory {
@@ -14,6 +14,12 @@ class CarFactory implements VehicleFactory {
 
     private CarFactory() {}
 
+    /**
+     * Return the instance of the CarFactory. When the car factory has
+     * no instance there will be created one instance of the factory.
+     * 
+     * @return                          The instance of the car factory.
+     */
     public static CarFactory getInstace() {
 
         if (CarFactory.instance == null) {
