@@ -4,7 +4,7 @@ package main.patterns.creationalpatterns.factory;
  * This is an vehicle interface that is implemented by all types
  * that should have the behaivior from an {@link Vehicle} type.
  * <p>
- * All vehicle are created by an subtype from the {@link VehicleFactory}
+ * All vehicle are created by an subtype from the {@link Factory}
  * type.
  * 
  * @see Car

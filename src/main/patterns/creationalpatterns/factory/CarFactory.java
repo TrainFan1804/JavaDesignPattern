@@ -1,14 +1,14 @@
 package main.patterns.creationalpatterns.factory;
 
 /**
- * This is a special {@link VehicleFactory} that create  an 
+ * This is a special {@link Factory} that create  an 
  * {@link Vehicle} from the {@link Car} type.
  * 
  * @author                              o.le
  * @version                             1.0.1
  * @since                               0.1.0
  */
-class CarFactory implements VehicleFactory {
+class CarFactory implements Factory {
 
     private static CarFactory instance;
 
