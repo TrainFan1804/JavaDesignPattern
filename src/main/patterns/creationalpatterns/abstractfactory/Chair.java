@@ -6,12 +6,14 @@ package main.patterns.creationalpatterns.abstractfactory;
  * <p>
  * All chair are created by an subtype from the {@link AbstractFactory}
  * type.
+ * <p>
+ * This is an functional interface.
  * 
  * @see ModernChair
  * @see OldChair
  * 
  * @author                              o.le
- * @version                             1.0.2
+ * @version                             1.0.3
  * @since                               0.3.5
  */
 interface Chair {

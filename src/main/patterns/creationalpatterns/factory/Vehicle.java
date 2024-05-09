@@ -6,11 +6,13 @@ package main.patterns.creationalpatterns.factory;
  * <p>
  * All vehicle are created by an subtype from the {@link Factory}
  * type.
+ * <p>
+ * This is an functional interface.
  * 
  * @see Car
  * 
  * @author                              o.le
- * @version                             1.0.0
+ * @version                             1.0.1
  * @since                               0.1.1
  */
 interface Vehicle {

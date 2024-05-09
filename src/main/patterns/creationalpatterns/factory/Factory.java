@@ -9,13 +9,13 @@ import main.patterns.creationalpatterns.Singleton;
  * All factorys should use the {@link Singleton} pattern.
  * <p>
  * In this exapmle: This is an factory interface that is implemented
- * by all types that should create an object that implements the 
+ * by all types that should create an object that implements the
  * {@link Vehicle} type.
  * 
  * @see CarFactory
  *  
  * @author                              o.le
- * @version                             1.1.1
+ * @version                             1.1.2
  * @since                               0.1.1
  */
 public interface Factory {

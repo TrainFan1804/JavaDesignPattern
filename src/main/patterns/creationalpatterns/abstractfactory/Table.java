@@ -6,12 +6,14 @@ package main.patterns.creationalpatterns.abstractfactory;
  * <p>
  * All table are created by an subtype from the {@link AbstractFactory}
  * type.
+ * <p>
+ * This is an functional interface.
  * 
  * @see ModernTable
  * @see OldTable
  * 
  * @author                              o.le
- * @version                             1.1.1
+ * @version                             1.1.2
  * @since                               0.3.5
  */
 interface Table {
