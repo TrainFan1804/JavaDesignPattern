@@ -1,36 +1,18 @@
 package main.patterns.creationalpatterns.builder;
 
 /**
- * This is a special {@link Product} that represent an pizza.
+ * This is an product interface that is implemented by all types
+ * that should have the behaivior from an {@link Pizza} type.
  * <p>
- * This type is created by an {@link PizzaBuilder}.
+ * All product are created by an subtype from the {@link Builder}
+ * type.
+ * <p>
+ * This is an marker interface.
+ * 
+ * @see EverythingPizza
  * 
  * @author                              o.le
- * @version                             1.0.2
- * @since                               0.4.3
+ * @version                             1.2.0
+ * @since                               0.4.4
  */
-class Pizza implements Product {
-
-    String dough;
-    String sauce;
-    
-    boolean cheese;
-    boolean meat;
-    boolean vegetables;
-
-    /**
-     * Create a Pizza with a builder.
-     * 
-     * @param builder                   The builder that build the pizza.
-     *                                  The builder defines the different
-     *                                  parts of an pizza.
-     */
-    Pizza(PizzaBuilder builder) {
-    
-        this.dough = builder.dough;
-        this.sauce = builder.sauce;
-        this.cheese = builder.cheese;
-        this.meat = builder.meat;
-        this.vegetables = builder.vegetables;
-    }
-}
+interface Pizza {}
