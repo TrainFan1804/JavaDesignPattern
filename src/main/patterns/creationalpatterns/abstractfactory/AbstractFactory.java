@@ -11,9 +11,6 @@ package main.patterns.creationalpatterns.abstractfactory;
  * <p>
  * For more information: https://en.wikipedia.org/wiki/Abstract_factory_pattern.
  * 
- * @see ModernFurnitureFactory
- * @see OldFurnitureFactory
- * 
  * @author                              o.le
  * @version                             1.1
  * @since                               0.3
