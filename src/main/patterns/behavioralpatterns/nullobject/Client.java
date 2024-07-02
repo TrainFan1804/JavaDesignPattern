@@ -1,27 +1,25 @@
 package main.patterns.behavioralpatterns.nullobject;
 
 // java import
-import java.util.Collections;
 import java.util.List;
 import java.util.LinkedList;
+import java.util.Collections;
 
 /**
  * This type represent the client that use different {@link AbstractObject}.
  * 
  * @author                              o.le
- * @version                             1.0
+ * @version                             1.1
  * @since                               0.5
  */
 class Client {
 
-    private List<AbstractObject> list;
+    private List<AbstractObject> list = new LinkedList<>();
 
     /**
      * Create a new client.
      */
     private Client() {
-        
-        this.list = new LinkedList<>();
         
         for (int i = 0; i < 10; i++) {
 

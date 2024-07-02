@@ -7,9 +7,11 @@ import java.util.HashMap;
  * An type that can have multiple instances is called <b>Multiton</b>.
  * <p>
  * All instances of the multion can be access with an unique key.
+ * <p>
+ * For more information: https://en.wikipedia.org/wiki/Multiton_pattern.
  * 
  * @author                              o.le
- * @version                             1.0
+ * @version                             1.1
  * @since                               0.1
  */
 public class Multiton {

@@ -1,8 +1,8 @@
 package test.patterns.creationalpatterns.builder;
 
 // custom import
-import main.patterns.creationalpatterns.builder.Bicycle;
-import main.patterns.creationalpatterns.builder.BicycleBuilder;
+import main.patterns.creationalpatterns.builder.ComplexObject;
+import main.patterns.creationalpatterns.builder.Builder;
 import main.patterns.creationalpatterns.builder.CanyonBuilder;
 import main.patterns.creationalpatterns.builder.RacingBikeDirector;
 // JUnit import
@@ -13,7 +13,7 @@ import static org.junit.Assert.assertNull;
 /**
  * This class test the <b>Buildern</b> pattern.
  * 
- * @see BicycleBuilder
+ * @see Builder
  * 
  * @author                              o.le
  * @version                             2.1.2
@@ -28,7 +28,7 @@ public class RacingBikeDirectorTest {
         assertNull(director.getResult());
 
         director.constructBike();
-        Bicycle constructedBike = director.getResult();
+        ComplexObject constructedBike = director.getResult();
         assertEquals(28, constructedBike.heigth);
         assertEquals("Canyon", constructedBike.brand);
         assertEquals("Endurace", constructedBike.model);
