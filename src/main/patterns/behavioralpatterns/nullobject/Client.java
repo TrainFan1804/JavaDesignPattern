@@ -19,7 +19,7 @@ class Client {
     /**
      * Create a new client.
      */
-    private Client() {
+    Client() {
         
         for (int i = 0; i < 10; i++) {
 

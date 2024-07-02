@@ -1,35 +1,30 @@
 package main.patterns.creationalpatterns.abstractfactory;
 
 /**
- * TODO
  * The <b>Abstract Factory</b> pattern allow to create objects from an
  * type family withour knowing the exact subtype from creating type.
- * <p>
- * In this exapmle: This is an factory interface that is implemented
- * by all types that should create an object that implements the 
- * {@link Chair} or {@link Table} type.
  * <p>
  * For more information: https://en.wikipedia.org/wiki/Abstract_factory_pattern.
  * 
  * @author                              o.le
- * @version                             1.1
+ * @version                             1.2
  * @since                               0.3
  */
 public interface AbstractFactory {
 
     /**
-     * This method create an object from the type {@link Chair}.
+     * This method create an object from the type {@link ProductA}.
      * 
-     * @return                          The chair that is created by
+     * @return                          The product that is created by
      *                                  the factory.
      */
-    Chair createChair();
+    ProductA createProductA();
 
     /**
-     * This method create an object from the type {@link Table}.
+     * This method create an object from the type {@link ProductB}.
      * 
-     * @return                          The table that is created by
+     * @return                          The product that is created by
      *                                  the factory.
      */
-    Table createTable();
+    ProductB createProductB();
 }
