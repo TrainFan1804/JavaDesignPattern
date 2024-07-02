@@ -13,8 +13,8 @@ package main.patterns.creationalpatterns.abstractfactory;
  * @see OldTable
  * 
  * @author                              o.le
- * @version                             1.1.2
- * @since                               0.3.5
+ * @version                             1.1
+ * @since                               0.3
  */
 interface Table {
 

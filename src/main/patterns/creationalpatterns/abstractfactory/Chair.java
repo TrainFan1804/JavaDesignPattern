@@ -13,8 +13,8 @@ package main.patterns.creationalpatterns.abstractfactory;
  * @see OldChair
  * 
  * @author                              o.le
- * @version                             1.0.3
- * @since                               0.3.5
+ * @version                             1.0
+ * @since                               0.3
  */
 interface Chair {
 

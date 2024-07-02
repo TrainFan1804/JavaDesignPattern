@@ -6,8 +6,8 @@ package main.patterns.creationalpatterns.abstractfactory;
  * This type is created by an {@link OldFurnitureFactory}.
  * 
  * @author                              o.le
- * @version                             1.1.0
- * @since                               0.3.5
+ * @version                             1.1
+ * @since                               0.3
  */
 class OldTable implements Table {
 

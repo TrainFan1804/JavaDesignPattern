@@ -8,8 +8,8 @@ package main.patterns.creationalpatterns.abstractfactory;
  * @see ModernTable
  * 
  * @author                              o.le
- * @version                             1.1.4
- * @since                               0.3.6
+ * @version                             1.1
+ * @since                               0.3
  */
 class ModernFurnitureFactory implements AbstractFactory {
 

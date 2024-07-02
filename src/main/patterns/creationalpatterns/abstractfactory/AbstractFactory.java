@@ -1,21 +1,22 @@
 package main.patterns.creationalpatterns.abstractfactory;
 
 /**
+ * TODO
  * The <b>Abstract Factory</b> pattern allow to create objects from an
  * type family withour knowing the exact subtype from creating type.
- * <p>
- * All factorys should use the {@link Singleton} pattern.
  * <p>
  * In this exapmle: This is an factory interface that is implemented
  * by all types that should create an object that implements the 
  * {@link Chair} or {@link Table} type.
+ * <p>
+ * For more information: https://en.wikipedia.org/wiki/Abstract_factory_pattern.
  * 
  * @see ModernFurnitureFactory
  * @see OldFurnitureFactory
  * 
  * @author                              o.le
- * @version                             1.1.2
- * @since                               0.3.5
+ * @version                             1.1
+ * @since                               0.3
  */
 public interface AbstractFactory {
 
