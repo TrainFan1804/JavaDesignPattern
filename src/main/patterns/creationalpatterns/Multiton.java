@@ -9,7 +9,7 @@ import java.util.HashMap;
  * All instances of the multion can be access with an unique key.
  * 
  * @author                              o.le
- * @version                             1.0.1
+ * @version                             1.0
  * @since                               0.1
  */
 public class Multiton {

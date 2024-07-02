@@ -4,8 +4,8 @@ package main.patterns.creationalpatterns;
  * An type that can only has one instance is called <b>Singleton</b>.
  * 
  * @author                              o.le
- * @version                             1.0.2
- * @since                               0.1.0
+ * @version                             1.0
+ * @since                               0.1
  */
 public class Singleton {
 
