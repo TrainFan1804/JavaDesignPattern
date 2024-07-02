@@ -1,4 +1,4 @@
-package main.patterns.structuralpatterns.adapter;
+package main.patterns.structuralpatterns.adapter.object;
 
 /**
  * This type represent the client.

@@ -1,4 +1,4 @@
-package main.patterns.structuralpatterns.adapter;
+package main.patterns.structuralpatterns.adapter.object;
 
 /**
  * The class that can is used as a {@link Target} without beeing a subtye of

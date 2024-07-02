@@ -1,4 +1,4 @@
-package main.patterns.structuralpatterns.adapter;
+package main.patterns.structuralpatterns.adapter.object;
 
 /**
  * A abstract object can be used by a {@link Client}.
