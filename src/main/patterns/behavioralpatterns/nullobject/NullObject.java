@@ -8,8 +8,8 @@ package main.patterns.behavioralpatterns.nullobject;
  * For more information: https://www.baeldung.com/java-null-object-pattern.
  * 
  * @author                              o.le
- * @version                             0.2.1
- * @since                               0.1.0
+ * @version                             0.2
+ * @since                               0.1
  */
 public class NullObject implements AbstractObject {
 

@@ -5,8 +5,8 @@ package main.patterns.behavioralpatterns.nullobject;
  * implementation.
  * 
  * @author                              o.le
- * @version                             0.2.2
- * @since                               0.5.9
+ * @version                             0.2
+ * @since                               0.5
  */
 class RealObject implements AbstractObject {
 

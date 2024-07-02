@@ -9,8 +9,8 @@ import java.util.LinkedList;
  * This type represent the client that use different {@link AbstractObject}.
  * 
  * @author                              o.le
- * @version                             1.0.2
- * @since                               0.5.9
+ * @version                             1.0
+ * @since                               0.5
  */
 class Client {
 
