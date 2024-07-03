@@ -5,8 +5,7 @@ package main.patterns.behavioralpatterns.nullobject;
  * but you don't want to catch the null object with a if condition. When the
  * null object is called it's do nothing.
  * <p>
- * It's a <b>GoF</b> pattern. For more information: 
- * https://www.baeldung.com/java-null-object-pattern.
+ * For more information: https://www.baeldung.com/java-null-object-pattern.
  * 
  * @author                              o.le
  * @version                             0.3
