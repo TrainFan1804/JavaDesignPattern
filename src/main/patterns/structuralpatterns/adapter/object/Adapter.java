@@ -8,10 +8,11 @@ package main.patterns.structuralpatterns.adapter.object;
  * This package provide a example of the <b>Object</b> adpater. This adapter
  * use saved object from {@link Adaptee} to navigate the controll flow.
  * <p>
- * For more information: https://en.wikipedia.org/wiki/Adapter_pattern.
+ * It's a <b>GoF</b> pattern. For more information: 
+ * https://en.wikipedia.org/wiki/Adapter_pattern.
  * 
  * @author                              o.le
- * @version                             1.5
+ * @version                             1.6
  * @since                               0.1
  */
 public class Adapter implements Target {

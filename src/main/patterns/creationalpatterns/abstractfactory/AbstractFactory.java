@@ -4,10 +4,11 @@ package main.patterns.creationalpatterns.abstractfactory;
  * The <b>Abstract Factory</b> pattern allow to create objects from an
  * type family withour knowing the exact subtype from creating type.
  * <p>
- * For more information: https://en.wikipedia.org/wiki/Abstract_factory_pattern.
+ * It's a <b>GoF</b> pattern. For more information: 
+ * https://en.wikipedia.org/wiki/Abstract_factory_pattern.
  * 
  * @author                              o.le
- * @version                             1.2
+ * @version                             1.3
  * @since                               0.3
  */
 public interface AbstractFactory {

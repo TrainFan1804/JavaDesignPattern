@@ -8,10 +8,11 @@ package main.patterns.structuralpatterns.adapter.classes;
  * This package provide a example of the <b>Class</b> adpater. This adapter
  * use inheritance to navigate the controll flow.
  * <p>
- * For more information: https://en.wikipedia.org/wiki/Adapter_pattern.
+ * It's a <b>GoF</b> pattern. For more information: 
+ * https://en.wikipedia.org/wiki/Adapter_pattern.
  * 
  * @author                              o.le
- * @version                             1.0
+ * @version                             1.1
  * @since                               0.6
  */
 public class Adapter extends Adaptee implements Target {

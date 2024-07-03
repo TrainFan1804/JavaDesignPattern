@@ -3,7 +3,8 @@ package main.patterns.creationalpatterns.factory;
 /**
  * An type that can create other object is called <b>Factory</b>.
  * <p>
- * For more information: https://en.wikipedia.org/wiki/Factory_method_pattern.
+ * It's a <b>GoF</b> pattern. For more information: 
+ * https://en.wikipedia.org/wiki/Factory_method_pattern.
  *  
  * @author                              o.le
  * @version                             1.2

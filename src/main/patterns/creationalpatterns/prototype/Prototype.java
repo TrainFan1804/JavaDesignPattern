@@ -3,7 +3,9 @@ package main.patterns.creationalpatterns.prototype;
 /**
  * A type that has the ability to create a copy of itself is called a <b>Prototype</b>.
  * <p>
- * For more information: https://en.wikipedia.org/wiki/Prototype_pattern.
+ * It's a <b>GoF</b> pattern. For more information: 
+ * https://en.wikipedia.org/wiki/Prototype_pattern.
+ * 
  * @author                              o.le
  * @version                             1.3
  * @since                               0.4
