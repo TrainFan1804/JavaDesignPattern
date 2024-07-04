@@ -4,10 +4,10 @@ package main.patterns.structuralpatterns.decorator;
  * This type just provide the funtions from the supertype {@link Component}.
  * 
  * @author                              o.le
- * @version                             0.3
+ * @version                             0.4
  * @since                               0.12
  */
-class ComponentOne implements Component {
+class SpecialComponent implements Component {
 
     @Override
     public void doSomething() {

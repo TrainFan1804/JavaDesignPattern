@@ -7,7 +7,7 @@ import java.util.Collections;
 
 /**
  * This type represent the client that use a {@link Component}. The component 
- * can be a {@link ComponentOne} or a subtype of {@link Decorator}.
+ * can be a {@link SpecialComponent} or a subtype of {@link Decorator}.
  * {@link Adapter}.
  * 
  * @author                              o.le
@@ -24,7 +24,7 @@ class Client {
 
         for (int i = 0; i < 5; i++) {
             
-            this.components.add(new ComponentOne());
+            this.components.add(new SpecialComponent());
         }
 
         for (int i = 0; i < 5; i++) {
