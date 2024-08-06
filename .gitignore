@@ -3,5 +3,6 @@
 /bin/*
 /out/*
 *.
+*.pdf
 *.jpg
 /lib/*
