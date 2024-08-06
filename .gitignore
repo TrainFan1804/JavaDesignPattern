@@ -3,6 +3,5 @@
 /bin/*
 /out/*
 *.
-*.png
 *.jpg
 /lib/*
