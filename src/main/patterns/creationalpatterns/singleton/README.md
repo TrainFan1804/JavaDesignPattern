@@ -11,7 +11,7 @@ The singleton class provide a static method to get the saved instance of the cla
 
 # UML
 
-![UML](../../../../resource/Singleton_UML.png)
+![UML](../../../../../resource/Singleton_UML.png)
 
 # Sources
 

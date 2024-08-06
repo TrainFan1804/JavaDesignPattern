@@ -19,7 +19,7 @@ in the component the method call is going recursively till reaching the core.
 
 # UML
 
-![UML](../../../../resource/Decorator_UML.png)
+![UML](../../../../../resource/Decorator_UML.png)
 
 # Sources
 
