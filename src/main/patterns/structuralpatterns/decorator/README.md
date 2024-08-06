@@ -1,6 +1,6 @@
 # Decorator pattern
 
-The decorator pattern can use when you need to add / remove different 
+The decorator pattern can be used when you need to add / remove different 
 responsibilities to an object during the run time. The decorator pattern is a
 **GoF** pattern.
 
@@ -19,7 +19,7 @@ in the component the method call is going recursively till reaching the core.
 
 # UML
 
-![UML](resources/Decorator_UML.png)
+![UML](../../../../resource/Decorator_UML.png)
 
 # Sources
 

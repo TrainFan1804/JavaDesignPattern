@@ -1,9 +1,10 @@
 package test.patterns.creationalpatterns;
 
-// custom import
-import main.patterns.creationalpatterns.Multiton;
 // JUnit import
 import org.junit.Test;
+
+import main.patterns.creationalpatterns.multiton.Multiton;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
