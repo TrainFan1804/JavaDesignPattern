@@ -1,10 +1,10 @@
-# Multiton pattern
+# Multiton Pattern
 
 The multiton pattern can be used when you need multiple instances of an class
 that should be accessed with an unique key.
 The multiton pattern is a **GoF** pattern.
 
-# Class description
+# Class Description
 
 ## Multiton 
 

@@ -1,10 +1,10 @@
 package main.patterns.structuralpatterns.decorator;
 
-public abstract class Decorator implements Component {
+abstract class Decorator implements Component {
 
     protected Component component;
 
-    Decorator(Component component) {
+    protected Decorator(Component component) {
 
         this.component = component;
     }

@@ -4,7 +4,7 @@ class Client {
 
     private Component component;
 
-    Client() {
+    public Client() {
 
         Component c = new ConcreteComponent();
         this.component = new ConcreteDecorator(c); 

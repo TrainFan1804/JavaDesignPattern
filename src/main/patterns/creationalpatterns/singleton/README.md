@@ -1,9 +1,9 @@
-# Singleton pattern
+# Singleton Pattern
 
 The singleton pattern can be used when you need only one instance of an class.
 The singleton pattern is a **GoF** pattern.
 
-# Class description
+# Class Description
 
 ## Singleton
 

@@ -3,9 +3,9 @@ package main.patterns.creationalpatterns.multiton;
 // java import
 import java.util.HashMap;
 
-public class Multiton {
+class Multiton {
 
-    private static HashMap<Object, Multiton> multiton = new HashMap<>();
+   private static HashMap<Object, Multiton> multiton = new HashMap<>();
 
    private Multiton() {}
 

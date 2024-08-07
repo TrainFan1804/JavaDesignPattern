@@ -1,6 +1,6 @@
 package main.patterns.creationalpatterns.singleton;
 
-public class Singleton {
+class Singleton {
 
     private static Singleton singleton = new Singleton();
 

@@ -2,7 +2,7 @@ package main.patterns.structuralpatterns.decorator;
 
 class ConcreteDecorator extends Decorator {
 
-    ConcreteDecorator(Component component) {
+    public ConcreteDecorator(Component component) {
 
         super(component);
     }

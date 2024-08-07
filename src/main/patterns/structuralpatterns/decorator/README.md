@@ -1,10 +1,10 @@
-# Decorator pattern
+# Decorator Pattern
 
 The decorator pattern can be used when you need to add / remove different 
 responsibilities to an object during the run time. The decorator pattern is a
 **GoF** pattern.
 
-# Class description
+# Class Description
 
 ## Component
 
