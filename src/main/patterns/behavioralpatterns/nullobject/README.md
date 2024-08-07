@@ -5,10 +5,14 @@ your programm.
 
 # Class Description
 
-## Strategy
+## Abstract Object
 
-The strategy class is an interface that provide a execute method that will execute
-the saved algorithm in it.
+This type is used in our programm to do different things.
+
+## Null Object
+
+The null object is a object that is also a abstract object. The null object define
+a default behavior that will not be executed.
 
 # UML
 
