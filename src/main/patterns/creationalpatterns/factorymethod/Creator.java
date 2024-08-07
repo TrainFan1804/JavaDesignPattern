@@ -1,4 +1,4 @@
-package main.patterns.creationalpatterns.factory;
+package main.patterns.creationalpatterns.factorymethod;
 
 abstract class Creator {
 
