@@ -4,11 +4,11 @@ class Client {
 
     public static void main(String[] args) {
 
-        test(new ConcreteObject());
-        test(new NullObject());
+        foo(new ConcreteObject());
+        foo(new NullObject());
     }
 
-    public static void test(AbstractObject object) {
+    public static void foo(AbstractObject object) {
 
         // dont need to do a null check because of the Null-Object-Pattern
         object.operation();
