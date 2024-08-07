@@ -1,17 +1,17 @@
 package main.patterns.creationalpatterns.builder;
 
-/**
- * This is a type that represent an object that has multiple {@link ProductPart}.
- * All parts are assembled by the builder too.
- * <p>
- * This type is created by an {@link Builder}.
- * 
- * @author                              o.le
- * @version                             2.2
- * @since                               0.4
- */
 class ComplexObject {
 
-    ProductPart p1;
-    ProductPart p2;
+    private Object firstPart;
+    private Object secondPart;
+    
+    public void setFirstPart(Object firstPart) { this.firstPart = firstPart; }
+    
+    public void setSecondPart(Object secondPart) { this.secondPart = secondPart; }
+
+    @Override
+    public String toString() {
+    
+        return "firstPart = " + firstPart + ", secondPart = " + secondPart;
+    }
 }
