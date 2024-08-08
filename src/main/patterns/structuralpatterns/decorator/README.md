@@ -1,7 +1,7 @@
 # Decorator Pattern
 
 The decorator pattern can be used when you need to add / remove different 
-responsibilities to an object during the run time. The decorator pattern is a
+behavior to an object during the run time. The decorator pattern is a
 **GoF** pattern.
 
 # Class Description

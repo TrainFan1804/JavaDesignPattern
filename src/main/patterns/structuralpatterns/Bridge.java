@@ -1,8 +1,5 @@
 package main.patterns.structuralpatterns;
 
-// custom import
-import main.patterns.structuralpatterns.adapter.classes.Adapter;
-
 /**
  * The bridge pattern must be implemented like the {@link Adapter} pattern.
  * <p>
