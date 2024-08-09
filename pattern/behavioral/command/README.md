@@ -22,7 +22,7 @@ was executed. The type of the command define the behavior of the receiver.
 
 # UML
 
-![UML](../../../../../resource/Command_UML.png)
+![UML](../../../resource/Command_UML.png)
 
 # Sources
 

@@ -21,7 +21,7 @@ The product class define a type that can be created by the abstract factory.
 
 # UML
 
-![UML](../../../../../resource/Abstract_Factory_UML.png)
+![UML](../../../resource/Abstract_Factory_UML.png)
 
 # Sources
 

@@ -22,7 +22,7 @@ The adaptee the "real" type the client want to use.
 
 # UML
 
-![UML](../../../../../resource/Adapter_UML.png)
+![UML](../../../resource/Adapter_UML.png)
 
 # Sources
 

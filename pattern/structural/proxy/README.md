@@ -16,7 +16,7 @@ The type that should have controlled access with the help of the proxy.
 
 # UML
 
-![UML](../../../../../resource/Proxy_UML.png)
+![UML](../../../resource/Proxy_UML.png)
 
 # Sources
 

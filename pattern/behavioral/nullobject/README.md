@@ -16,7 +16,7 @@ a default behavior that will not be executed.
 
 # UML
 
-![UML](../../../../../resource/Null_Object_UML.png)
+![UML](../../../resource/Null_Object_UML.png)
 
 # Sources
 

@@ -13,7 +13,7 @@ the instance that is assoziated with that key.
 
 # UML
 
-![UML](../../../../../resource/Multiton_UML.png)
+![UML](../../../resource/Multiton_UML.png)
 
 # Sources
 

@@ -12,7 +12,7 @@ defining.
 
 # UML
 
-![UML](../../../../../resource/Facade_UML.png)
+![UML](../../../resource/Facade_UML.png)
 
 # Sources
 

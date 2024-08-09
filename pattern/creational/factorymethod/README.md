@@ -17,7 +17,7 @@ The product class define a type that can be created by the creator.
 
 # UML
 
-![UML](../../../../../resource/Factory_Method_UML.png)
+![UML](../../../resource/Factory_Method_UML.png)
 
 # Sources
 

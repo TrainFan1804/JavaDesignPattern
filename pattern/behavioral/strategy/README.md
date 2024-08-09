@@ -12,7 +12,7 @@ the saved algorithm in it.
 
 # UML
 
-![UML](../../../../../resource/Strategy_UML.png)
+![UML](../../../resource/Strategy_UML.png)
 
 # Sources
 

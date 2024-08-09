@@ -17,7 +17,7 @@ greatly.
 
 # UML
 
-![UML](../../../../../resource/Builder_UML.png)
+![UML](../../../resource/Builder_UML.png)
 
 # Sources
 
