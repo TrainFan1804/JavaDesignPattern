@@ -1,25 +1,29 @@
 package behavioral.iterator;
 
-/**
- * This type represent the client.
- * 
- * @author                              o.le
- * @version                             0.2
- * @since                               0.18
- */
 class Client {
 
-    SpecialAggregate specialAggregate = new SpecialAggregate();
-
     public static void main(String[] args) {
-     
-        Client client = new Client();
+   
+        int[] data = createData(); 
 
-        Iterator iter = client.specialAggregate.createIterator();
+        Aggregate aggregate = new ConcreteAggregate(data);
+        Iterator iterator = aggregate.createIterator();
+        
+        while(iterator.hasNext()) {
 
-        while (iter.hasNext()) {
-            
-            System.out.println(iter.next());
+            System.out.println(iterator.next());
         }
+    }
+
+    private static int[] createData() {
+
+        int[] data = new int[10];
+
+        for (int i = 0; i < data.length; i++) {
+
+            data[i] = i+1;
+        }
+        
+        return data;
     }
 }
