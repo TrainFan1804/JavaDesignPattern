@@ -1,4 +1,4 @@
-# Design Pattern
+# Java Design Pattern
 
 Each pattern is in a different package with an extra readme that will describe
 the pattern further. 
