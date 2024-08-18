@@ -4,8 +4,8 @@ The bridge pattern can be used when two types should vary independently. This
 pattern is often confused with the adapter pattern but both have differen use
 cases. When you know from the beginning you want an interaction between two types
 you should directly implement the bridge pattern. But when you already in the
-project you can use an interface to make two incompatible interfaces work together
-afterwards. The bridge pattern is a **GoF** pattern. 
+project you can use the adapter pattern to make two incompatible interfaces work 
+together afterwards. The bridge pattern is a **GoF** pattern. 
 
 # Class Description
 
